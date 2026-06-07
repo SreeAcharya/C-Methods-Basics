@@ -1,0 +1,17 @@
+namespace _03_Easy_Method
+{
+    internal class Program
+    {
+        static double GetFinalPrice(double Price, double Discount=0.10)
+        {
+            double finalPrice = Price - (Price * Discount);
+            Console.WriteLine($"Final Price:{finalPrice}");
+            return finalPrice;
+        }
+        static void Main(string[] args)
+        {
+            GetFinalPrice(100);
+            GetFinalPrice(100,0.20);
+        }
+    }
+}
