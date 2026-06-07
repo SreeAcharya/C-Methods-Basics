@@ -1,0 +1,16 @@
+namespace _01_Easy_Methods
+{
+    internal class Program
+    {
+        static void GreetUser(string name)
+        {
+            Console.WriteLine($"Hello, Weclome {name}");      
+        }
+        static void Main(string[] args)
+        {
+            GreetUser("Hari");
+            GreetUser("Si");
+            GreetUser("Nikki");
+        }
+    }
+}
