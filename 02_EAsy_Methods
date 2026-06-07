@@ -1,0 +1,16 @@
+namespace _02_Easy_Method
+{
+    internal class Program
+    {
+        static int AreaRect(int height, int width)
+        {
+            int area = height * width;
+            Console.WriteLine($"Area: {area}");
+            return area;
+        }
+        static void Main(string[] args)
+        {
+            AreaRect(5,4);
+        }
+    }
+}
